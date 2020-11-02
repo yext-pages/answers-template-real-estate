@@ -1,16 +1,16 @@
 {
-  "verticalKey": "locations", // The vertical key from your search configuration
-  "pageTitle": "Location Search", // !!!REPLACE THIS VALUE!!! The contents of the title tag and meta open graph tag for title
+  "verticalKey": "properties", // The vertical key from your search configuration
+  "pageTitle": "Properties Search", // !!!REPLACE THIS VALUE!!! The contents of the title tag and meta open graph tag for title
   // "metaDescription": "", // The meta tag for open graph description
   // "canonicalUrl": "", // The link tag for canonical URL as well as the meta tag for open graph url
   // "keywords": "", // The meta tag for keywords
   "pageSettings": {
-    /**
+
     "search": {
-      "verticalKey": "<REPLACE ME>", // The vertical key from your search configuration
-      "defaultInitialSearch": "" // Enter a default search term
+      "verticalKey": "properties", // The vertical key from your search configuration
+      "defaultInitialSearch": "near me" // Enter a default search term
     }
-    **/
+
   },
   "componentSettings": {
     /**
@@ -57,8 +57,8 @@
   // Configuration used to define the look and feel of the vertical, both on this page and, by default,
   // on the universal page.
   "verticalsToConfig": {
-    "locations": { // The vertical key from your search configuration
-      "label": "Offices", // The name of the vertical in the section header and the navigation bar
+    "properties": { // The vertical key from your search configuration
+      "label": "Properties", // The name of the vertical in the section header and the navigation bar
       // "verticalLimit": 15, // The result count limit for vertical search
       // "universalLimit": 5, // The result count limit for universal search
       "cardType": "location-standard", // The name of the card to use - e.g. accordion, location, customcard 
