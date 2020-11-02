@@ -5,12 +5,12 @@
   // "canonicalUrl": "", // The link tag for canonical URL as well as the meta tag for open graph url
   // "keywords": "", // The meta tag for keywords
   "pageSettings": {
-    /**
+  
      "search": {
-       "verticalKey": "<REPLACE ME>", // The vertical key from your search configuration
-       "defaultInitialSearch": "" // Enter a default search term
+       "verticalKey": "units", // The vertical key from your search configuration
+       "defaultInitialSearch": "units" // Enter a default search term
      }
-    **/
+
   },  
   "componentSettings": {
     /**
@@ -59,11 +59,9 @@
   "verticalsToConfig": {
     "units": { // The vertical key from your search configuration
       "label": "Apartment Units", // The name of the vertical in the section header and the navigation bar
-      // "verticalLimit": 15, // The result count limit for vertical search
-      // "universalLimit": 5, // The result count limit for universal search
-      "cardType": "product-standard", // The name of the card to use - e.g. accordion, location, customcard 
+      "cardType": "product-prominentimage", // The name of the card to use - e.g. accordion, location, customcard 
       "icon": "star", // The icon to use on the card for this vertical
-      "universalSectionTemplate": "standard"
+      "universalSectionTemplate": "grid-two-columns"
     }
   }
 }
